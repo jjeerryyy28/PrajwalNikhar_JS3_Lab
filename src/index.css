@@ -1,0 +1,80 @@
+/* Reset default margin and padding for the entire page */
+body, h1, p, input, button {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Center the container horizontally and vertically */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(./img/96dfd411ab0e68f8bc1eb47e4eee8771.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: orange;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 15px 0px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 3px solid orange; /* Set the border to an orange color */
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #weatherInfo {
+    text-align: center;
+    color: white;
+  }
+
+  .city-country .date{
+    margin: 0; /* Remove margin between h1 and h4 */
+  }
+  
+  /* Add margin after h1 and h4 */
+  .city-country,
+  .date,
+  .temp,
+  .description,
+  .min-max-temperature {
+    margin-bottom: 10px; /* Adjust the margin value as per your preference */
+  }
+
+  .temp-size{
+    font-weight: bold;
+    font-size: 80px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  .desc-size{
+    font-size: 30px;
+    font-style: italic;
+  }
+
+  .mm-size{
+    font-size: 30px;
+  }
